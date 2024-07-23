@@ -25,8 +25,8 @@ scRNA-seq provides information about cells at a granularity never before seen. S
 The KSQ is essentially asking if we can repurpose two existing drugs to treat other cancers through evaluating similarities in single cell expression.
 
 ## Resources:
-Definition of Cancer Cellines
-Dr. Aviv Regev Talk
-https://www.news-medical.net/life-sciences/What-is-VEGF.aspx
+[Definition of Cancer Cellines](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cancer-cell-line)
+[Dr. Aviv Regev Talk
+](https://www.youtube.com/watch?v=Wk5QHySlMXU)https://www.news-medical.net/life-sciences/What-is-VEGF.aspx
 https://www.cancer.org/cancer/types/breast-cancer/understanding-a-breast-cancer-diagnosis/breast-cancer-her2-status.html
 
