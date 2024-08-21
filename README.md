@@ -16,7 +16,7 @@ How can I use scRNA-seq to elucidate insights from these therapies?
 By finding scRNA-seq data from these cell lines that are affected with a drug, perhaps it’ll be possible to see which responds better against HER2 and VEGF.
 Why do we need to use scRNA-seq instead of bulk-RNA-seq?
 scRNA-seq is useful here because we can investigate specific cell types and cell state transitions versus a tissue level analysis. This means that we can look at possible differences between early stage cancer cell lines and late stage cancer cell lines.
-# Questions Dean prompted:
+
 ## What are cancer cell lines and why do we use them?
 Cancer cell lines are cells that continuously multiply if given the proper resources. This implies they don’t have the same cell cycle checkpoints as normal cells. We use them to study cancer because it’s more ethical than treating humans directly and still provide an accurate understanding of drug efficacy and cancer targets
 ## What is scRNA-seq, and why is it useful for cancer drug development?
