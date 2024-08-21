@@ -33,7 +33,6 @@ https://www.cancer.org/cancer/types/breast-cancer/understanding-a-breast-cancer-
 
 -----------------------------------------------------------------------------
 ## Week 2: Reading the Paper
-# Dean's Questions
 # How did the authors handle the potential caveat of co-culturing cell lines before profiling by scRNA-seq? Why do you think that caveat was or was not adequately addressed?
 Co-culturing means growing the cells in in the same petri dish, which means they may have interacted with each other in the CCLE (Cancer Cell Line Encyclopedia) pool but not HNSCC (Head and Neck Squamous Cell Carcinoma) pool. The authors mention that this is acceptable because the patterns of heterogeneity were as similar between cell lines from the same pool as they were between cell lines from different pools. In the supplementary information, they mention running a one-way ANOVA test, which is used to analyze variance and that there was minimal effects.
 By looking at the supplementary figures, 1b makes it seem that the non-negative matrix factorization scores (still trying to understand what that means–is this good for identifying features?) are similar for co-cultured vs not co-cultured, which support the authors’ points. I assume 1e displays a hierarchical cluster showing the individually clustered cell line with a co-cultured cell line for most connections, so I think that fits the narrative. Not sure how 1c and 1d fit the narrative because it only shows heterogeneity for the single cell lines but not the co-cultured cell lines. While the data looks reasonable, I still wonder if certain cancer lines might interfere with each other more than others and this isn’t answered fully.
@@ -47,7 +46,7 @@ The authors state that each RHP was detected across at least 8 different cell li
 # Where can you download the scRNA-seq data as shown in Figure 1B?
 The data can be found on the Broad Institute’s single cell  website:
 https://singlecell.broadinstitute.org/single_cell/study/SCP542/pan-cancer-cell-line-heterogeneity
-# My questions
+# Further questions
 # Why is it such a large deal that in vitro cell lines mirror in vivo ones--I thought this was the hope in using cell lines in the first place? 
 Further, just because in-vitro cell lines have similar genetic patterns doesn't necessarily imply that treatments that work on cell lines would work on in-vivo cell lines due to the complexities of drug delivery and other body environmental factors.
 # Why did the authors use tSNE instead of UMAP?
