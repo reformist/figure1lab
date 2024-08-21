@@ -1,5 +1,6 @@
 # figure1lab
 ## Week 1: Key Scientific Question
+Reference Research Paper: https://www.nature.com/articles/s41588-020-00726-6
 In biotech, the goal is to lengthen patients’ lifespan and/or increase their quality of life.
 The idea and data: 
 Using available scRNA-seq data from cancer cell lines, how would I explore the use of the following FDA-approved antibody therapies in additional cancers?
